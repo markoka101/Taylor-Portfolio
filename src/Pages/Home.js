@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Outer() {
+export default function Home() {
     return null;
 }
