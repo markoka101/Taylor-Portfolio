@@ -13,15 +13,16 @@ import Home from './Pages/Home';
 //import components
 import Intro from './Components/Intro';
 import Work from './Components/Work';
+import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 
 export default function App() {
     return (
-        <main>
+        <main className='bg-slate-800'>
             <BrowserRouter>
                 <Navbar />
                 <Routes>
-                    <Route path='/' element={<Home />} />
+                    <Route path='/' element={<><Intro /><Work /><Contact /></>} />
                     <Route path='/About' element={<About />} />
                     <Route path='/Awards' element={<Awards />} />
                     <Route path='/Freelance' element={<Freelance />} />
