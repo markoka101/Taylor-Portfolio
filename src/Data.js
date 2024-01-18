@@ -2,39 +2,39 @@
 export const workCards = [
     {
         title: 'Freelance',
-        page: '',
+        page: '/Freelance',
         color: 'red-500',
-        image: './Images/generic-github.jpg'
+        image: './Images/fl_img/card.png'
     },
     {
         title: 'Origins',
-        page:'',
+        page:'/Origins',
         color: 'red-500',
-        image:'./Images/generic-github.jpg'
+        image:'./Images/or_img/card.png'
     },
     {
         title: 'Outer Stuff',
-        page: '',
+        page: '/Outer',
         color: 'red-500',
-        image: './Images/generic-github.jpg'
+        image: './Images/out_img/card.png'
     },
     {
         title:'Spring Hills',
-        page: '',
+        page: '/SpringHills',
         color: 'red-500',
-        image:'./Images/generic-github.jpg'
+        image:'./Images/sh_img/card.png'
     },
     {
         title:'Videos',
-        page:'',
+        page:'/Videos',
         color: 'red-500',
-        image:'./Images/generic-github.jpg'
+        image:'./Images/vid_card.jpg'
     },
     {
         title:'Awards',
-        page: '',
+        page: '/Awards',
         color: 'red-500',
-        image:'./Images/generic-github.jpg'
+        image:'./Images/awards_card.jpg'
     }
 ];
 
@@ -64,16 +64,38 @@ export const freelanceImages = [
 ];
 
 export const freelanceVideos = [
-
+    {
+        title: 'Book Promo',
+        path:'./Videos/fl_vid/Book_Promo_Comp.mp4'
+    }
 ];
 
 /*
 Spring hills data
 */
 export const springFiles = [
-
+    {
+        title:'Branding Team OnBoarding',
+        path:'./Files/sh_pdf/Brand_OnBoarding.pdf',
+        image:'./Images/sh_img/branding_cover.PNG'
+    }
 ];
 
 export const springImages = [
-
+    {
+        title: 'Mac mockup',
+        path: './Images/sh_img/imac-mockup.png'
+    },
+    {
+        title: 'iPhone Mockup',
+        path: './Images/sh_img/iphone-mockup.png'
+    },
+    {
+        title: 'Macbook Mockup',
+        path: './Images/sh_img/macbook-mockup.png'
+    },
+    {
+        title: 'Magazine Mockup',
+        path: './Images/sh_img/mag-mockup.png'
+    }
 ];
