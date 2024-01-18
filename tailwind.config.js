@@ -3,10 +3,14 @@ module.exports = {
         "./src/**/*.{js,jsx,ts,tsx}",
     ],
     theme: {
-        extend: {}
+        extend: {
+            colors: {
+                'custom-bg' : '#939c84'
+            }
+        }
     },
     variants: {
-        extend: {},
+        extend: {}
     },
     plugins: [],
 }

@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Awards() {
+export default function Lms() {
     return null;
 }

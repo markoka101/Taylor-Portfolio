@@ -3,7 +3,7 @@ import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom';
 
 //import pages
 import About from './Pages/About';
-import Awards from './Pages/Awards';
+import Lms from './Pages/Lms';
 import Freelance from './Pages/Freelance';
 import Origins from './Pages/Origins';
 import Outer from './Pages/Outer';
@@ -22,14 +22,14 @@ I have router set up in case of need
 */
 export default function App() {
     return (
-        <main className='bg-slate-800 min-h-screen'>
+        <main className='bg-custom-bg min-h-screen'>
             <BrowserRouter className="">
                 <Navbar />
 
                 <Routes>
                     <Route path='/' element={<><Intro /><Work /></>} />
                     <Route path='/About' element={<About />} />
-                    <Route path='/Awards' element={<Awards />} />
+                    <Route path='/Lms' element={<Lms />} />
                     <Route path='/Freelance' element={<Freelance />} />
                     <Route path='/SpringHills' element={<SpringHills />} />
                     <Route path='/Origins' element={<Origins />} />

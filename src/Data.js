@@ -3,38 +3,32 @@ export const workCards = [
     {
         title: 'Freelance',
         page: '/Freelance',
-        color: 'red-500',
         image: './Images/fl_img/card.png'
     },
     {
         title: 'Origins',
         page:'/Origins',
-        color: 'red-500',
-        image:'./Images/or_img/card.png'
+        image:'./Images/or_img/org_card.png'
     },
     {
         title: 'Outer Stuff',
         page: '/Outer',
-        color: 'red-500',
         image: './Images/out_img/card.png'
     },
     {
         title:'Spring Hills',
         page: '/SpringHills',
-        color: 'red-500',
-        image:'./Images/sh_img/card.png'
+        image:'./Images/sh_img/spring_card.jpeg'
     },
     {
         title:'Videos',
         page:'/Videos',
-        color: 'red-500',
-        image:'./Images/vid_card.jpg'
+        image:'./Images/vid_img/vid_card.png'
     },
     {
-        title:'Awards',
-        page: '/Awards',
-        color: 'red-500',
-        image:'./Images/awards_card.jpg'
+        title:'Learning Managment System',
+        page: '/Lms',
+        image:'./Images/lms_img/lms_card.jpg'
     }
 ];
 
@@ -53,7 +47,18 @@ export const originsVideos =  [
 Outer data
 */
 export const outerImages  = [
-
+    {
+        title: 'outer stuff',
+        path:'./Images/out_img/outerstuff.png'
+    },
+    {
+        title: 'outer stuff 2',
+        path:'./Images/out_img/outerstuff2.png'
+    },
+    {
+        title:'outer stuff 3',
+        path:'./Images/out_img/outer3.jpg'
+    }
 ];
 
 /*
@@ -75,9 +80,24 @@ Spring hills data
 */
 export const springFiles = [
     {
-        title:'Branding Team OnBoarding',
+        title:'Onboarding',
         path:'./Files/sh_pdf/Brand_OnBoarding.pdf',
-        image:'./Images/sh_img/branding_cover.PNG'
+        image:'./Images/sh_img/branding_cover.png'
+    },
+    {
+        title:'Social Metrics',
+        path:'./Files/sh_pdf/metrics_report.pdf',
+        image:'./Images/sh_img/social_metric.png'
+    },
+    {
+        title:'Malnutritian Information',
+        path:'./Files/sh_pdf/malnutritian.pdf',
+        image:'./Images/sh_img/malnutritian.png'
+    },
+    {
+        title:'Partnership',
+        path:'./Files/sh_pdf/partnerships.pdf',
+        image:'./Images/sh_img/partner.png'
     }
 ];
 
@@ -87,15 +107,15 @@ export const springImages = [
         path: './Images/sh_img/imac-mockup.png'
     },
     {
-        title: 'iPhone Mockup',
-        path: './Images/sh_img/iphone-mockup.png'
+        title: 'Magazine Mockup',
+        path: './Images/sh_img/mag-mockup.png'
     },
     {
         title: 'Macbook Mockup',
         path: './Images/sh_img/macbook-mockup.png'
     },
     {
-        title: 'Magazine Mockup',
-        path: './Images/sh_img/mag-mockup.png'
+        title: 'iPhone Mockup',
+        path: './Images/sh_img/iphone-mockup.png'
     }
 ];

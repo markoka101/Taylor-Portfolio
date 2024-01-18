@@ -5,8 +5,8 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 export default function Contact() {
     return (
         <section id="contact">
-            <div className="container pb-5 flex flex-row min-w-full justify-center items-center">
-                <p className="text-yellow-300 text-xl font-sans font-bold text-center">
+            <div className="container py-5 flex flex-row min-w-full justify-center items-center bg-black bg-opacity-50">
+                <p className="text-white text-xl font-sans font-bold text-center">
                     trmorales1013@gmail.com
                 </p>
                 <div className="flex items-center">
