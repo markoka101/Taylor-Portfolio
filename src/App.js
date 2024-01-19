@@ -9,7 +9,6 @@ import Origins from './Pages/Origins';
 import Outer from './Pages/Outer';
 import Vids from './Pages/Vids';
 import SpringHills from './Pages/SpringHills';
-import Home from './Pages/Home';
 
 //import components
 import Intro from './Components/Intro';

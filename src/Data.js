@@ -226,3 +226,10 @@ export const springImages = [
         path: './Images/sh_img/iphone-mockup.png'
     }
 ];
+
+//lms file
+export const lmsPDF = {
+        title: 'Learning Management System Origins',
+        path:'./Files/lms_pdf/lms.pdf',
+        image:'./Images/lms_img/disc.png'
+    }
