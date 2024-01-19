@@ -1,3 +1,19 @@
+/*
+importing video files
+*/
+//importing origin video files
+import mmfe from './Videos/or_vid/mmfe.mp4'
+import retnoid from './Videos/or_vid/retnoid.mp4';
+import ritual_face from './Videos/or_vid/ritual_face.mp4';
+import ritual_noglobal from './Videos/or_vid/ritual_noglobal.mp4';
+import service from './Videos/or_vid/service.mp4';
+
+//importing freelance video files
+import Book_Promo_Comp from './Videos/fl_vid/Book_Promo_Comp.mp4';
+import montclair_newslab_covid from './Videos/fl_vid/montclair_newslab_covid.mp4';
+import montclair_newslab_legal from './Videos/fl_vid/montclair_newslab_legal.mp4';
+import montclair_newslab_voting from './Videos/fl_vid/montclair_newslab_voting.mp4';
+
 //cards for the work component
 export const workCards = [
     {
@@ -36,11 +52,59 @@ export const workCards = [
 Origins data
 */
 export const originsFiles = [
-
+    {
+        title:'Clear Improvement',
+        path:'./Files/or_pdf/chia_mask.pdf',
+        image:'./Images/or_img/chia.png'
+    },
+    {
+        title:'Discover Origins',
+        path:'./Files/or_pdf/discover_origins.pdf',
+        image:'./Images/or_img/discover.png'
+    },
+    {
+        title:'Mega-Mushroom Dark Spot Serum',
+        path:'./Files/or_pdf/mmdss.pdf',
+        image:'./Images/or_img/mmds.png'
+    },
+    {
+        title:'Mega-Mushroom Fortifying Emulsion',
+        path:'./Files/or_pdf/mmfe.pdf',
+        image:'./Images/or_img/mmf.png'
+    },
+    {
+        title:'PLANTFUSION FRANCHISE',
+        path:'./Files/or_pdf/pf_franchise.pdf',
+        image:'./Images/or_img/pff.png'
+    },
+    {
+        title:'PLANTFUSION',
+        path:'./Files/or_pdf/plant_fusion.pdf',
+        image:'./Images/or_img/pf.png'
+    }
 ];
 
 export const originsVideos =  [
-
+    {
+        title:'MMFE',
+        path:mmfe
+    },
+    {
+        title:'Retnoid',
+        path:retnoid
+    },
+    {
+        title:'Ritual Face',
+        path:ritual_face
+    },
+    {
+        title:'Ritual Global',
+        path:ritual_noglobal
+    },
+    {
+        title:'Service',
+        path:service
+    }
 ];
 
 /*
@@ -65,13 +129,56 @@ export const outerImages  = [
 Freelance data
 */
 export const freelanceImages = [
-
+    {
+        title:'mock business',
+        path:'./Images/fl_img/mock-bus.png'
+    },
+    {
+        title:'mock canvas',
+        path:'./Images/fl_img/mock-can.png'
+    },
+    {
+        title:'woman holding jojo',
+        path:'./Images/fl_img/jojo-hold.png'
+    },
+    {
+        title:'jojo',
+        path:'./Images/fl_img/jojo.png'
+    },
+    {
+        title:'freelance',
+        path:'./Images/fl_img/freelance.png'
+    },
+    {
+        title:'folded sweater',
+        path:'./Images/fl_img/mock-fold.png'
+    },
+    {
+        title:'lifted promo',
+        path:'./Images/fl_img/lifted-promo.png'
+    },
+    {
+        title:'mock sweater',
+        path:'./Images/fl_img/mock-sweat.png'
+    }
 ];
 
 export const freelanceVideos = [
     {
         title: 'Book Promo',
-        path:'./Videos/fl_vid/Book_Promo_Comp.mp4'
+        path:Book_Promo_Comp
+    },
+    {
+        title:'Covid Newslab',
+        path:montclair_newslab_covid
+    },
+    {
+        title:'Legalization of Marijuana',
+        path:montclair_newslab_legal
+    },
+    {
+        title:'Voting Newslab',
+        path:montclair_newslab_voting
     }
 ];
 

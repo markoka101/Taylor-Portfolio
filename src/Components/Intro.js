@@ -5,8 +5,9 @@ export default function Intro() {
         <section id="intro">
             <div className="container mx-auto flex px-10 py-15 items-center w-3/4 my-10">
                 <p className="font-mono font-bold text-4xl text-white text-left my-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                I am Taylor Morales. I am a Training and Development specialist working on Learning Management Systems, 
+                Articulate Courses, and content creation based in New Jersey.
+
                 </p>
                 <img
                 alt="me"
