@@ -40,6 +40,7 @@ export default function App() {
 
                 <Contact />
             </BrowserRouter>
+            
         </main>
     )
 }

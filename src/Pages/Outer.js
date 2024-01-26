@@ -8,11 +8,11 @@ export default function Outer() {
                 <h1 className="font-semibold font-sans text-white text-4xl text-center mt-10">
                     Images
                 </h1>
-                <div className="flex flex-wrap my-2  w-full justify-center">
+                <div className="flex flex-wrap my-2 w-full justify-center">
                     {outerImages.map((card) => (
                         <div
                         key={card.title}
-                        className="flex flex-col my-2 mx-2 w-5/12">
+                        className="flex flex-col my-2 mx-2 sm:w-5/12 md:5/12 lg:5/12 w-full">
                             <div className="flex flex-col justify-center items-center">
                                 <img
                                 alt={card.title}

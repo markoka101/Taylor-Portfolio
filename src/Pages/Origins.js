@@ -12,7 +12,7 @@ export default function Origins() {
                     {originsFiles.map((card) => (
                         <a
                         key={card.title}
-                        className="flex flex-col my-2 mx-2 w-5/12 justify-center items-center border-2 border-transparent hover:border-teal-100"
+                        className="flex flex-col my-2 sm:mx-2 md:mx-2 lg:mx-2  sm:w-5/12 md:5/12 lg:w-5/12 w-full justify-center items-center border-2 border-transparent hover:border-teal-100"
                         href={card.path}
                         target="_blank"
                         rel="noreferrer">
