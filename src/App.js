@@ -21,7 +21,7 @@ I have router set up in case of need
 */
 export default function App() {
     return (
-        <main className='bg-custom-bg min-h-screen'>
+        <main className='bg-custom-bg min-h-screen overflow-x-clip'>
             <BrowserRouter className="">
                 <Navbar />
 
