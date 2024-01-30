@@ -7,7 +7,7 @@ export default function About() {
                 <div className="h-[11vh] w-screen flex relative">
                     <img
                     alt='banner'
-                    className="absolute object-none h-full w-full opacity-80"
+                    className="absolute object-none h-full w-full opacity-70"
                     src='./Images/banner.jpg'/>
                 </div>
                 
