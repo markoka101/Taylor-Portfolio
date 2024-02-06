@@ -15,10 +15,10 @@ export default function Work() {
                             <div className="flex relative min-h-full">
                                 <img
                                 alt={card.title}
-                                className="absolute object-fill aspect-auto w-full h-full"
+                                className="absolute object-cover aspect-auto w-full h-full"
                                 src={card.image}/>
 
-                                <div className="relative min-w-full min-h-full bg-cyan-700 bg-opacity-90 md:bg-opacity-95 lg:bg-opacity-95 md:opacity-0 lg:opacity-0 hover:opacity-100 items-center justify-center flex">
+                                <div className="relative min-w-full min-h-full bg-cyan-700 bg-opacity-90 md:opacity-0 lg:opacity-0 hover:opacity-100 items-center justify-center flex">
                                     <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl font-sans font-semibold text-yellow-400 text-center">{card.title}</h1>
                                 </div>
                             </div>
