@@ -9,7 +9,7 @@ export default function Navbar() {
                     Taylor Morales
                 </a>
                 <nav className="flex flex-wrap text-xl font-medium">
-                    <a className="mx-2 border-b-2 border-transparent hover:border-b-2 hover:border-black" href="/#work">
+                    <a className="mx-2 border-b-2 border-transparent hover:border-b-2 hover:border-black hidden sm:block md:block lg:block" href="/#work">
                         Work
                     </a>
                     <a className="mx-2 border-b-2 border-transparent hover:border-b-2 hover:border-black" href="/about">
