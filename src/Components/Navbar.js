@@ -15,9 +15,6 @@ export default function Navbar() {
                     <a className="mx-2 border-b-2 border-transparent hover:border-b-2 hover:border-black" href="/about">
                         About
                     </a>
-                    <a className="ml-2 border-b-2 border-transparent hover:border-b-2 hover:border-black" href="#contact">
-                        Contact
-                    </a>
                 </nav>
             </div>
         </header>
