@@ -27,7 +27,7 @@ export const workCards = [
         image:'./Images/or_img/org_card.png'
     },
     {
-        title: 'Outer Stuff',
+        title: 'Outerstuff',
         page: '/Outer',
         image: './Images/out_img/card.png'
     },
@@ -112,15 +112,15 @@ Outer data
 */
 export const outerImages  = [
     {
-        title: 'outer stuff',
+        title: 'outerstuff',
         path:'./Images/out_img/outerstuff.png'
     },
     {
-        title: 'outer stuff 2',
+        title: 'outerstuff 2',
         path:'./Images/out_img/outerstuff2.png'
     },
     {
-        title:'outer stuff 3',
+        title:'outerstuff 3',
         path:'./Images/out_img/outer3.jpg'
     }
 ];

@@ -3,7 +3,7 @@ import { workCards } from "../Data";
 
 export default function Work() {
     return (
-        <section id="work" className=' sm:mt-20 md:mt-20 lg:mt-20 sm:mb-10 md:mb-10 lg:mb-10 py-5 sm:h-[100vh] md:h-[100vh] lg:h-[100vh] h-[63vh]'>
+        <section id="work" className=' sm:mt-20 md:mt-20 lg:mt-20 mb-5 sm:mb-10 md:mb-10 lg:mb-10 py-5 sm:h-[100vh] md:h-[100vh] lg:h-[100vh] h-[80vh]'>
             <div className="container min-w-full sm:min-h-full md:min-h-full lg:min-h-full flex">
                 <div className="flex flex-wrap min-h-full min-w-full">
                     {workCards.map((card) => (
