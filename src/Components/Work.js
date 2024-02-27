@@ -18,7 +18,7 @@ export default function Work() {
                                 className="absolute object-cover aspect-auto w-full h-full"
                                 src={card.image}/>
 
-                                <div className="relative min-w-full min-h-full bg-cyan-700 bg-opacity-90 md:opacity-0 lg:opacity-0 hover:opacity-100 items-center justify-center flex">
+                                <div className="relative min-w-full min-h-full bg-cyan-700 bg-opacity-90 md:opacity-0 lg:opacity-0 hover:opacity-100 items-center justify-center flex transition-all duration-500 ease-in-out">
                                     <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl font-sans font-semibold text-yellow-400 text-center">{card.title}</h1>
                                 </div>
                             </div>
